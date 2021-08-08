@@ -121,21 +121,6 @@
         const updateButtons = (url) => {
             updateButton(url, 'downloadButton')
             updateButton(url, 'directdownloadButton')
-            /*const anchor = document.getElementById('downloadButton')
-            const button = document.querySelector('#downloadButton button')
-            if (url !== "unsupported") {
-                button.style.backgroundColor = ''
-                button.style.borderColor = ''
-                button.style.cursor = ''
-                anchor.setAttribute('href', window.location.origin + url)
-                GM_setValue('ANIME_FILE_NAME', document.querySelector('h2.page_title').innerHTML) // update varname with anime title
-            }
-            else {
-                button.style.backgroundColor = '#e86161'
-                button.style.borderColor = '#c63b3b'
-                button.style.cursor = 'not-allowed'
-                anchor.removeAttribute('href')
-            }*/
         }
 
         const handleSourceChange = () => {

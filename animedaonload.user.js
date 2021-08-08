@@ -4,6 +4,7 @@
 // @version      0.1
 // @description  Gives you buttons to download video from animedao
 // @author       github.com/wiryfuture
+// @license      GNU GPLv3 
 // @include      /https:\/\/animedao(.*)\.(.*)\/.*/
 // @include      /https:\/\/storage.googleapis.com\/*.
 // @run-at       document-idle
